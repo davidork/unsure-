@@ -1,0 +1,12 @@
+// Sets the forecast temperature of today to 293K
+let kelvin = 293;
+// Converts the temperature from unit kelvin to unit celsius
+let celsius = kelvin - 273;
+// Converts the temperature from unit celsius to unit farenheit
+let fahrenheit = celsius*(9/5) + 32;
+// Rounds the farenheit temperature read to its lowest integer reading
+fahrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+let newton = celsius*(33/100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} newtons`);
